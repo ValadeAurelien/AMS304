@@ -1,19 +1,20 @@
-function GLs = G_devel_G_L(L, k, S, r0)
-% G_DEVEL_G_L - 
-%   
+function GLs = G_devel_G_L(L, k, QuadPts, r0)
 
-nb_s_ = size(S); nb_s=nb_s_(1);
+
+[nbpts, nbpts_] = size(QuadPts);
 
 indlist = 0:L;
 GLs_line = (2*indlist+1).*power(1i, indlist);
 H = besselh_Sph(indlist, k*norm(r0));
 GLs_line = GLs_line.*H;
 
-R0 = repmat(r0, [nb_s, 1]);
-coslist = dot(S, R0, 2)/norm(r0);
-GLs = zeros(nb_s, L+1);
-for s=1:nb_s
-    GLs(s,:) = legendreP(indlist, coslist(s));
+R0 = repmat(r0, [nbpts, 1]);
+coslist = dot(QuadPts, R0, 2)/norm(r0);
+GLs = zeros(nbpts, L+1);
+
+for l=1:L
+    GLs(:,l) = legendreP(indlist(l), coslist);
 end
+
 GLs = GLs*(GLs_line)';
 GLs = GLs*1i*k/(16*pi^2);

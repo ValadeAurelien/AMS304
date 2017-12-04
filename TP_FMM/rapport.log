@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.17)  29 NOV 2017 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.17)  5 DEC 2017 00:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -783,20 +783,20 @@ Package: xparse 2017/11/14 L3 Experimental document command parser
 ) (./rapport.aux)
 \openout1 = `rapport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
@@ -850,7 +850,7 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring ON on input line 40.
+Package hyperref Info: Link coloring ON on input line 41.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -859,9 +859,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count273
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 41.
+LaTeX Info: Redefining \pageref on input line 41.
+LaTeX Info: Redefining \nameref on input line 41.
  (./rapport.out) (./rapport.out)
 \@outlinefile=\write3
 \openout3 = `rapport.out'.
@@ -896,91 +896,122 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 42.
+LaTeX Font Info:    Try loading font information for U+msa on input line 43.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 42.
+LaTeX Font Info:    Try loading font information for U+msb on input line 43.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 116.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 162.
 
  (/usr/share/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 116.
-<sphere.png, id=49, 371.9496pt x 329.5512pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 162.
+<sphere.png, id=74, 371.9496pt x 329.5512pt>
 File: sphere.png Graphic file (type png)
 <use sphere.png>
-Package pdftex.def Info: sphere.png  used on input line 155. on input line 155.
+Package pdftex.def Info: sphere.png  used on input line 201. on input line 201.
 
 Package pdftex.def Info: Requested size: 307.52623pt x 272.45943pt on input lin
-e 155.
-
-[2]
-<L_min_l.png, id=59, 523.7166pt x 395.5578pt>
+e 201.
+<L_min_l.png, id=76, 523.7166pt x 395.5578pt>
 File: L_min_l.png Graphic file (type png)
 <use L_min_l.png>
-Package pdftex.def Info: L_min_l.png  used on input line 182. on input line 182
+Package pdftex.def Info: L_min_l.png  used on input line 230. on input line 230
 .
 Package pdftex.def Info: Requested size: 360.7575pt x 272.45943pt on input line
- 182.
+ 230.
+[3]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 256.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 190.
+(hyperref)                removing `subscript' on input line 256.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 190.
+(hyperref)                removing `math shift' on input line 256.
 
+[4 <./sphere.png>] [5 <./L_min_l.png>]
+<err_L.png, id=104, 578.16pt x 433.62pt>
+File: err_L.png Graphic file (type png)
+<use err_L.png>
+Package pdftex.def Info: err_L.png  used on input line 314. on input line 314.
+Package pdftex.def Info: Requested size: 317.88312pt x 238.40979pt on input lin
+e 314.
+<err_x0.png, id=105, 578.16pt x 433.62pt>
+File: err_x0.png Graphic file (type png)
+<use err_x0.png>
+Package pdftex.def Info: err_x0.png  used on input line 321. on input line 321.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 190.
-
-[3 <./sphere.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
- [4 <./L_min_l.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
+Package pdftex.def Info: Requested size: 317.88312pt x 238.40979pt on input lin
+e 321.
+<tps_npts.png, id=106, 578.16pt x 433.62pt>
+File: tps_npts.png Graphic file (type png)
+<use tps_npts.png>
+Package pdftex.def Info: tps_npts.png  used on input line 328. on input line 32
+8.
+Package pdftex.def Info: Requested size: 317.88312pt x 238.40979pt on input lin
+e 328.
+ [6 <./err_L.png (PNG copy)>] [7 <./err_x0.png (PNG copy)> <./tps_npts.png (PNG
+ copy)>]
+<partsph.png, id=127, 578.16pt x 433.62pt>
+File: partsph.png Graphic file (type png)
+<use partsph.png>
+Package pdftex.def Info: partsph.png  used on input line 365. on input line 365
+.
+Package pdftex.def Info: Requested size: 317.88312pt x 238.40979pt on input lin
+e 365.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 415.
+ [8 <./partsph.png (PNG copy)>]
+[9]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 415.
  (./rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 215.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 415.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 415.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
-(rerunfilecheck)             Checksum: CEBD12EA684C8DCCBBCD8BEF6D9565FD;277.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 215.
+(rerunfilecheck)             Checksum: 4DCE6BDAD9DBE528D473DE0BFE89BA24;488.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 415.
  ) 
 Here is how much of TeX's memory you used:
- 15852 strings out of 492985
- 277604 string characters out of 6138637
- 355274 words of memory out of 5000000
- 19268 multiletter control sequences out of 15000+600000
- 542514 words of font info for 70 fonts, out of 8000000 for 9000
+ 15917 strings out of 492985
+ 278307 string characters out of 6138637
+ 357035 words of memory out of 5000000
+ 19304 multiletter control sequences out of 15000+600000
+ 543729 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 32i,9n,40p,10412b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 32i,12n,47p,10412b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msb
-m10.pfb>
-Output written on rapport.pdf (4 pages, 225715 bytes).
+cmmi6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></
+usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/a
+msfonts/symbols/msbm10.pfb>
+Output written on rapport.pdf (9 pages, 436715 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
- 109 compressed objects within 2 object streams
- 27 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 219 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 49 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 

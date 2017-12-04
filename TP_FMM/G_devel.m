@@ -1,42 +1,23 @@
-function val = G_devel(L, k, x, y, x0, y0)
+function val = G_devel(X, Y, k, x0, y0, GLs, QuadPts, QuadWgts)
 
-r0 = x0-y0;
-r = x-y-r0;
+[Nx, Nx_] = size(X);
+[Ny, Ny_] = size(Y);
 
-I = 2*L+1;
-Wphi = 2*pi/I*ones(1, I);
-Ptsphi = 2*pi/I*(1:I);
+GLW = repmat( (GLs.*QuadWgts)', [Nx, 1]);
 
-J = L+1;
-[Ptsthetax, Wtheta] = nodes_weights_GL(J);
-Ptstheta = acos(Ptsthetax);
+rX = X - repmat(x0, [Nx, 1]);
+rXxdotSx = rX(:,1)*QuadPts(:, 1)';
+rXydotSy = rX(:,2)*QuadPts(:, 2)';
+rXzdotSz = rX(:,3)*QuadPts(:, 3)';
+rXdotS = rXxdotSx + rXydotSy + rXzdotSz;
+expfactX = exp(1i*k*rXdotS);
 
-AllPtsphi = repmat(Ptsphi', [J, 1]);
-AllWphi = repmat(Wphi', [J, 1]);
+rY = Y - repmat(y0, [Ny, 1]);
+rYxdotSx = rY(:,1)*QuadPts(:, 1)';
+rYydotSy = rY(:,2)*QuadPts(:, 2)';
+rYzdotSz = rY(:,3)*QuadPts(:, 3)';
+rYdotS = rYxdotSx + rYydotSy + rYzdotSz;
+expfactY = exp(1i*k*rYdotS);    
 
-AllPtstheta = []; 
-AllWtheta = [];
-for j=1:J
-    AllPtstheta = [ AllPtstheta ; Ptstheta(j)*ones(I, 1) ];
-    AllWtheta   = [ AllWtheta   ; Wtheta(j)  *ones(I, 1) ];
-end
-AllW = AllWphi.*AllWtheta;
-[Sx, Sy, Sz] = sph2cart(AllPtsphi, ...
-                        AllPtstheta-pi/2, ...
-                        1); %CHANGEMENT DE COORDONNÉES POUR AVOIR
-                            %LA BONNE ELEVATION
-S = [Sx Sy Sz];
-figure(1);
-xlabel('x');
-ylabel('y');
-zlabel('z');
-plot3(Sx, Sy, Sz);
-hold on;
-plot3(Sx, Sy, Sz, 's', 'Color', 'r');
-hold off;
-GLs = G_devel_G_L(L, k, S, r0);
-
-R = repmat(r, [I*J, 1]);
-GLs = exp(i*k*dot(S, R, 2)).*GLs;
-
-val = GLs'*AllW;
+val = expfactX.*GLW*expfactY';
+val = -1 * val;

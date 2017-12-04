@@ -19,6 +19,8 @@ YYz = meshgrid(Y(:,3));
 Dz  = XXz-YYz';
 
 dmat = sqrt(Dx.^2 + Dy.^2 + Dz.^2);
-if(X==Y) 
-    dmat = dmat - eye(s);
+if(size(X)==size(Y))
+    if (isequal(X, Y))
+        dmat = dmat - eye(s);
+    end
 end

@@ -32,14 +32,22 @@
     "C"
     "N"
     "hs"
-    "lG")
+    "lG"
+    "Gm")
    (LaTeX-add-labels
     "eq:green"
     "eq:goal"
+    "tab:timebrut"
     "eq:devel"
     "eq:GL"
     "fig:sph"
-    "fig:L_min_l")
+    "fig:L_min_l"
+    "eq:cddk"
+    "fig:err_L"
+    "fig:err_x0"
+    "fig:tps_npts"
+    "fig:part"
+    "tab:funcs")
    (LaTeX-add-amsthm-newtheorems
     "pb"
     "rmq"))

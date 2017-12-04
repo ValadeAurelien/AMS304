@@ -1,7 +1,11 @@
 function Gmat = G(X, Y, k)
 
-ss = size(X); s = ss(1);
+[s, s_] = size(X);
 
-Gmat = exp(1i*k*dist(X, Y))./dist(X, Y) + isequal(X, Y)*eye(s)* ...
-       exp(-1i*k);
-Gmat = Gmat / (4*pi);
+Gmat = exp(1i*k*dist(X, Y))./dist(X, Y);
+if (size(X)==size(Y))
+    if (isequal(X, Y))
+        Gmat = Gmat + eye(s) * exp(-1i*k);
+    end
+end
+Gmat = transpose(Gmat / (4*pi));
